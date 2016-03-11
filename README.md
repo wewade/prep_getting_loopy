@@ -9,8 +9,9 @@ For loops are great for:
 
 ## Getting Started
 1. Fork this repository and clone it from your personal GitHub Account
-2. In the Terminal type ```cd prep_getting_loopy```
-5. Your work will be one in the file named: `loop.js`
+2. In the Terminal, type `cd prep_getting_loopy`
+3. Your work will be one in the file named: `loops.js`
+4. To run your program, open the terminal and type `node loops.js`
 
 # Exercises
 
