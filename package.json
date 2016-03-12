@@ -1,0 +1,19 @@
+{
+  "name": "prep_getting_loopy",
+  "version": "1.0.0",
+  "description": "For loops are great for:",
+  "main": "loops.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devleague/prep_getting_loopy.git"
+  },
+  "author": "Dev League LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devleague/prep_getting_loopy/issues"
+  },
+  "homepage": "https://github.com/devleague/prep_getting_loopy#readme"
+}
