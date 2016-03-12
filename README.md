@@ -47,7 +47,8 @@ Declare a variable named `evenNumberArray`.
 
 Use a _FOR_ loop to add only even numbers to an Array. Add `50` even numbers to the `evenNumberArray` starting with the value `0`.
 
-## `Accessing only the odd indexes of an Array - 'Not Even Brah'`
+## `Pushing values to the odd indexes of an Array - 'Not Even Brah'`
+
 Someone forgot to fill out this array! Oh noes...
 
 Declare a new variable named `oopsArray` set it's value to be: `[ 'turn' , , 'down' , , 'for' , , 'what' ]`
