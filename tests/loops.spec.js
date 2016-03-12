@@ -37,5 +37,17 @@ Test('Getting Loopy', suite => {
     t.end();
   });
 
+  Test('String of Numbers', t => {
+    t.ok(sandbox.stringOfNumbers, 'stringOfNumbers variable exists.');
+
+    t.equals(sandbox.stringOfNumbers
+    , '1011121314151617181920'
+    , 'stringOfNumbers contains the right numbers.'
+    );
+
+    t.end();
+
+  });
+
   suite.end();
-})
+});
