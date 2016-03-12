@@ -80,5 +80,19 @@ Test('Getting Loopy', suite => {
     t.end();
   });
 
+  Test('Going Backwards: reverseOops array', t => {
+    if (!sandbox.reverseOops) {
+      t.fail('reverseOops is not defined.');
+      return t.end();
+    }
+
+    t.ok(sandbox.reverseOops, 'reverseOops is defined.');
+    t.equals(sandbox.reverseOops.length, 7, 'reverseOops has length: 7');
+
+    t.equals(sandbox.reverseOops, sandbox.oopsArray, 'wut');
+
+    t.end();
+  });
+
   suite.end();
 });
