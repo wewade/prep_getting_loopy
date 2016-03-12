@@ -64,5 +64,21 @@ Test('Getting Loopy', suite => {
     t.end();
   });
 
+  Test('Pushing values to odd indexes, "Not Even Brah"', t => {
+    if (!sandbox.oopsArray) {
+      t.fail('oopsArray is not defined.');
+      return t.end();
+    }
+
+    t.ok(sandbox.oopsArray, 'oopsArray is defined.');
+    t.equals(sandbox.oopsArray.length, 7, 'oopsArray has length: 7');
+
+    for (var i = 1; i < sandbox.oopsArray.length; i += 2) {
+      t.equals(sandbox.oopsArray[i], 'nope', `nope found at index ${i}`);
+    }
+
+    t.end();
+  });
+
   suite.end();
 });
