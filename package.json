@@ -4,7 +4,7 @@
   "description": "For loops are great for:",
   "main": "loops.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./tests/loops.spec.js | tap-spec"
   },
   "repository": {
     "type": "git",
