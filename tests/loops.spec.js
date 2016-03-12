@@ -46,7 +46,22 @@ Test('Getting Loopy', suite => {
     );
 
     t.end();
+  });
 
+  Test('Array of even numbers', t => {
+    if (!sandbox.evenNumberArray) {
+      t.fail('evenNumberArray is not defined.');
+      return t.end();
+    }
+
+    t.ok(sandbox.evenNumberArray, 'evenNumberArray is defined.');
+    t.equals(sandbox.evenNumberArray.length, 50, 'evenNumberArray has length: 50');
+
+    sandbox.evenNumberArray.forEach(number => {
+      t.ok(number % 2 === 0, `${number} is an even number.`);
+    });
+
+    t.end();
   });
 
   suite.end();
