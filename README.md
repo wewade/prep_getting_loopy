@@ -42,7 +42,7 @@ After the _FOR_ loop, use `console.log` to inspect your variable. In the end you
 
 **bonus:** could you take the code inside of this _FOR_ loop and encapsulate it inside of a function called `appendToString` and still achieve the same result?
 
-## `Add only even numbrs to an array`
+## `Add only even numbers to an array`
 Declare a variable named `evenNumberArray`.
 
 Use a _FOR_ loop to add only even numbers to an Array. Add `50` even numbers to the `evenNumberArray` starting with the value `0`.
