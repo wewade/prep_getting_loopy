@@ -62,9 +62,9 @@ Example result should look like:
 ```
 
 ## `Going backwards?!`
-Using a _FOR_ loop, iterate through the Array stored at `oopsArray` **backwards**. `console.log` each value in the Array.
+Using a _FOR_ loop, iterate through the Array stored at `oopsArray` **backwards**. `console.log` each value in the Array. Also, push each value into a new array stored at a variable named `reverseOops`.
 
-example output:
+example output from `console.log()`:
 ```
 what
 nope
