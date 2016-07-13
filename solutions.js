@@ -28,3 +28,28 @@ function printContent(names){
 }
 
 printContent(presidents);
+
+/*Declare a variable named `stringOfNumbers` and set it's value to `''` (an empty String).*/
+
+var stringOfNumbers = "";
+
+/*Then write a _FOR_ loop that appends a Number value to that string starting from `10` all the way up to and including `20`.*/
+
+for(var i = 10; i<21; i++){
+  stringOfNumbers += i;
+}
+console.log(stringOfNumbers);
+
+/***bonus:** could you take the code inside of this _FOR_ loop and encapsulate it inside of a function called `appendToString` and still achieve the same result?*/
+
+var numberStr = "";
+
+function appendToString(str){
+  for (var i = 10; i<21; i++){
+    str += i;
+  }
+  return str;
+}
+
+console.log(appendToString(numberStr));
+
