@@ -17,7 +17,7 @@ Within the _FOR_ loop, use `console.log` to:
 	for (var i = 0; i<presidents.length; i++) {
 		console.log(presidents[i]);
 		console.log("Value of i is: " + [i]);
-		console.log("Value at" , + [i] , + "is", + (presidents[i]));
+		console.log("Value at" , + [i] , + " is ", + (presidents[i]));
 	}
 
 	function printContent(names){
@@ -203,5 +203,55 @@ function generateArrayOfStrings(storage){
 	}
 
 		console.log(generateArrayOfStrings(miscStorage));
+
+
+var currentClass=[
+  {
+    name: 'Doug',
+    graduated: false,
+    enrolled: true
+  },
+  {
+    name: 'Pat',
+    graduated: false,
+    enrolled: false
+  },
+  {
+    name: 'Marsha',
+    graduated: false,
+    enrolled: false
+  },
+  {
+    name: 'Moira',
+    graduated: false,
+    enrolled: true
+  },
+  {
+    name: 'Ben',
+    graduated: false,
+    enrolled: true
+  },
+  {
+    name: 'Nigel the Giraffe',
+    graduated: false,
+    enrolled: false
+  },
+  {
+    name: 'Brandon the Shark',
+    graduated: false,
+    enrolled: true
+  }
+];
+	function graduateAndSetNewClass(class){
+		for (var i = 0; i <class.length; i++){
+			if (enrolled ===true) {}
+
+			
+		}
+		
+
+	}
+
+
 
 
