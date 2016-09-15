@@ -190,16 +190,18 @@ If the `enrolled` property is set to `true` then change that student's `graduate
 
 var miscStorage =[ [] ,  " Carrots " , 9 , "Beets" , {} , {name: "Todd B."} , "Mush" ];
 function generateArrayOfStrings(storage){
-	return [];
+	var newArray =[];
+	for (var i = 0; i <storage.length; i++) {
+		if(typeof storage[i] === typeof ""){
 
+			newArray.push(storage[i]);
+		}
+	}
 
-}
-
-var currentClass =[array found here](https://
-	function graduateAndSetNewClass(class){
-
+			return newArray;
 		
 	}
 
+		console.log(generateArrayOfStrings(miscStorage));
 
 
