@@ -242,16 +242,28 @@ var currentClass=[
     enrolled: true
   }
 ];
-	function graduateAndSetNewClass(class){
-		for (var i = 0; i <class.length; i++){
-			if (enrolled ===true) {}
+	function graduateAndSetNewClass(student){
+		for (var i = 0; i <student.length; i++)
+		var currentStudent = student[i];
+		if(currentStudent.enrolled === true){
+			currentStudent.graduated = true;
+		}else{
 
-			
-		}
-		
+			currentStudent.enrolled = true;
+		}			
+		return student;
 
 	}
+		
+		console.log(graduateAndSetNewClass(currentClass));
+
+			
+
+		
 
 
+		
 
+
+			
 
